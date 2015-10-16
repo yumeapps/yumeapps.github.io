@@ -1,0 +1,115 @@
+
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+body { 
+ background: url('../images/background.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.video-container {
+    padding-left: 170px;
+}
+
+
+.test2 p {
+    padding-bottom: 700px;
+    background: orange;
+    font-size: 60px;
+}
+
+
+h1 {
+    color: red;
+}
+
+.get-it-now {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+iframe {
+    width: 800px;
+    height: 540px;
+}
+
+.google-play-link p, .google-play-link h3 {
+    color: white;
+}
+
+.screenshots-container h1 {
+    color: white;
+}
+
+#sector11_jumbo {
+    background: url('../images/sector11_promo.png');
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+}
+
+#index_promo {
+    background: url('../images/index_promo.png');
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+}
+
+.fake-jumbotron {
+    height: 350px;
+    
+    margin-bottom: 50px;
+}
+
+.float-left-image {
+    float: left;   
+    width: 250px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+.float-right-image {
+    float: right;
+    width: 250px;
+    height: 250px;
+    margin-left: 50px;
+}
+
+
+.app-container p {
+    color: white;
+    font-size: 25px;
+}
+
+.clear {
+    clear: both;
+}
+
+.app-container {
+    height: 300px;
+    border: 3px solid white;
+    margin-bottom: 30px;
+    padding: 25px 25px 25px 25px;
+}
+
+.app-container h2 {
+    color: white;
+    font-size: 45px;
+    padding-left: 0px;
+    margin-left: 30px;
+}
+
+
+.right-align-text {
+    text-align: justify;
+}
