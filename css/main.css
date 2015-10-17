@@ -1,4 +1,7 @@
-
+.container a {
+    color: #FFFFFF;
+    text-decoration: none !important;
+}
 
 body {
   padding-top: 20px;
@@ -73,43 +76,42 @@ iframe {
 
 .float-left-image {
     float: left;   
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin-right: 50px;
 }
 
 .float-right-image {
     float: right;
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin-left: 50px;
 }
 
 
 .app-container p {
-    color: white;
-    font-size: 25px;
+    color: black;
+    font-size: large;
 }
 
-.clear {
-    clear: both;
-}
 
 .app-container {
-    height: 300px;
+    height: 200px;
     border: 3px solid white;
     margin-bottom: 30px;
     padding: 25px 25px 25px 25px;
+    background: rgba(255, 255, 255, .5);
 }
 
+
 .app-container h2 {
-    color: white;
-    font-size: 45px;
+    color: black;
+    font-size: xx-large;
     padding-left: 0px;
-    margin-left: 30px;
 }
 
 
 .right-align-text {
     text-align: justify;
 }
+
