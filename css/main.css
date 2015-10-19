@@ -84,13 +84,21 @@ iframe {
     float: left;   
     width: 150px;
     height: 150px;
-    margin-right: 50px;
+    width: 15vw;
+    height: 15vw;
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 25px;
 }
 
 .float-right-image {
     float: right;
     width: 150px;
     height: 150px;
+    width: 15vw;
+    height: 15vw;
+    max-width: 150px;
+    max-height: 150px;
     margin-left: 50px;
 }
 
@@ -103,16 +111,18 @@ iframe {
 
 .app-container {
     height: 200px;
+/*    height: 20vw;*/
+    max-height: 200px;
     border: 3px solid white;
     margin-bottom: 30px;
-    padding: 25px 25px 25px 25px;
+    padding: 1vw 25px 25px 25px;
     background: rgba(255, 255, 255, .5);
 }
 
 
 .app-container h2 {
     color: black;
-    font-size: xx-large;
+    font-size: x-large;
     margin-top: 0px;
     padding-left: 0px;
 }
