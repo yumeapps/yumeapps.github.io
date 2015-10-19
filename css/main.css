@@ -21,7 +21,7 @@ body {
 }
 
 .video-container {
-    padding-left: 170px;
+/*    padding-left: 170px;*/
 }
 
 
@@ -42,8 +42,14 @@ h1 {
 }
 
 iframe {
-    width: 800px;
-    height: 540px;
+/*
+    width: 600px;
+    height: 440px;
+*/
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    
 }
 
 .google-play-link p, .google-play-link h3 {
@@ -69,7 +75,7 @@ iframe {
 }
 
 .fake-jumbotron {
-    height: 350px;
+    height: 200px;
     
     margin-bottom: 50px;
 }
@@ -91,7 +97,7 @@ iframe {
 
 .app-container p {
     color: black;
-    font-size: large;
+    font-size: normal;
 }
 
 
@@ -107,6 +113,7 @@ iframe {
 .app-container h2 {
     color: black;
     font-size: xx-large;
+    margin-top: 0px;
     padding-left: 0px;
 }
 
@@ -114,4 +121,3 @@ iframe {
 .right-align-text {
     text-align: justify;
 }
-
