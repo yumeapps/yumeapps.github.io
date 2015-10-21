@@ -67,6 +67,27 @@ iframe {
     background-position: center;
 }
 
+#danmakuinitiate_jumbo {
+    background: url('../images/danmaku_initiate_promo.png');
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+}
+
+#swimcalculator_jumbo {
+    background: url('../images/swim_calculator_promo.png');
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+}
+
+#danmakuimplosion_jumbo {
+    background: url('../images/danmaku_implosion_promo.jpg');
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+}
+
 #index_promo {
     background: url('../images/index_promo.png');
     background-repeat: no-repeat;
