@@ -4,6 +4,8 @@
 }
 
 body {
+    height: 100%;
+    
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -61,44 +63,45 @@ iframe {
 }
 
 #sector11_jumbo {
-    background: url('../images/sector11_promo.png');
+    background-image: url('../images/sector11_promo.png');
     background-repeat: no-repeat;
      background-size: cover;
     background-position: center;
 }
 
 #danmakuinitiate_jumbo {
-    background: url('../images/danmaku_initiate_promo.png');
+    background-image: url('../images/danmaku_initiate_promo.png');
     background-repeat: no-repeat;
      background-size: cover;
     background-position: center;
 }
 
 #swimcalculator_jumbo {
-    background: url('../images/swim_calculator_promo.png');
+    background-image: url('../images/swim_calculator_promo.png');
     background-repeat: no-repeat;
      background-size: cover;
     background-position: center;
 }
 
 #danmakuimplosion_jumbo {
-    background: url('../images/danmaku_implosion_promo.jpg');
+    background-image: url('../images/danmaku_implosion_promo.jpg');
     background-repeat: no-repeat;
      background-size: cover;
     background-position: center;
 }
 
 #index_promo {
-    background: url('../images/index_promo.png');
+    background-image: url('../images/index_promo.png');
     background-repeat: no-repeat;
      background-size: cover;
-    background-position: center;
+    background-position: center center;
 }
 
 .fake-jumbotron {
-    width: 1140px;
-    height: 200px;
-/*    height: 200px;*/
+    padding-top: 18.1%;
+    
+    width: 100%;
+    min-height: 100%;
     
     margin-bottom: 50px;
 }
