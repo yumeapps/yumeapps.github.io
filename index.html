@@ -114,11 +114,17 @@
               console.log("is this logging?");
         var userLang = navigator.language || navigator.userLanguage;
              console.log("trying to log: " + userLang);
+              
+        if (userLang.indexOf("en") != -1) {
+            console.log("English text please");
+        }
+              
         if (userLang == "en") {
 //            window.location.href = "www.yumeapps.com/jp/index.html"
         }
+            
         else {
-            window.location.href = "www.yumeapps.com/jp/"
+            window.location.href = "jp/index.html"
         }
           });
       </script>
